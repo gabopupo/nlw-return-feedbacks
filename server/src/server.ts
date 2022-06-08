@@ -5,7 +5,7 @@ import { routes } from './routes';
 const app = express();
 
 app.use(cors({
-    origin: 'https://nlw-return-feedbacks-production.up.railway.app',
+    origin: 'https://nlw-return-feedbacks.vercel.app',
 }));
 app.use(express.json());
 
