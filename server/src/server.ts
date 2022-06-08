@@ -5,7 +5,7 @@ import { routes } from './routes';
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://nlw-return-feedbacks-production.up.railway.app',
 }));
 app.use(express.json());
 
